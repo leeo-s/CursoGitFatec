@@ -23,7 +23,7 @@ function calcularComanda() {
     porcentagemGorjeta = 0;
   }
 
-  const gorjeta = valorConta * (porcentagemGorjeta / 0);
+  const gorjeta = valorConta * (porcentagemGorjeta / 100);
 
   if (isNaN(valorConta)) {
     valorConta = 0;
